@@ -10,6 +10,7 @@ import Weapon from './pages/Weapons/Weapon'
 import Weapons from './pages/Weapons/Weapons'
 import Maps from './pages/Maps/Maps'
 import Map from './pages/Maps/Map'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
             <Route path='/infos/maps' element={<Maps />} />
             <Route path='/infos/maps/:id' element={<Map />} />
           </Routes>
+          <Footer />
       </>
   )
 
